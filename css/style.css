@@ -5,10 +5,12 @@
     font-family: sans-serif;
 }
 
-#logo{
-    width: 100px;
-    margin: 10px 0;
-    margin-left: 30px;
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+header{
+    background-color: white;
 }
 
 h1{
@@ -16,4 +18,49 @@ h1{
     line-height: 124px;
     vertical-align: bottom;
     font-size: 60px;
+}
+
+h3{
+    font-weight: 900;
+    color: rgb(43, 42, 42);
+}
+
+#logo{
+    width: 100px;
+    margin: 10px 0;
+    margin-left: 30px;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+}
+
+.buttons{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 3px;
+}
+
+.add{
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.task{
+    color: white;
+    background-color: rgb(51, 129, 245);
+    margin-left: 50px;
+    border: 1px solid rgb(51, 129, 245);
+}
+
+.section{
+    color: rgb(173, 171, 171);
+    background-color: white;
+    border: 1px solid lightgrey;
 }
