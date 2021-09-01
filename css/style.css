@@ -76,4 +76,38 @@ h3{
 
 .todo{
     margin-top: 15px;
+    font-weight: 600;
+    color: rgb(43, 42, 42);
+}
+
+.label{
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.blue{
+    background-color: rgb(51, 129, 245);
+}
+
+.purple{
+    background-color: blueviolet;
+}
+
+.green{
+    background-color: darkcyan;
+}
+
+.orange{
+    background-color: coral;
+}
+
+.pink{
+    background-color: hotpink;
+}
+
+.lightgreen{
+    background-color: lightgreen;
 }
